@@ -6,15 +6,7 @@ Sample project for the Data Flow Library
 ```brew install cmake ninja```
 
 #### Setup:
-_Either add the Data Flow Library using a submodule or cloning_
-###### Either:
-```git init```  
-```mkdir -p lib && cd lib```  
-```git submodule add git@github.com:Oyalmli/data_flow_library.git```
-###### Or:
-```mkdir -p lib && cd lib```  
-```git clone git@github.com:Oyalmli/data_flow_library.git```
-```cd ..```  
+```git clone --recursive git@github.com:Oyalmli/dfl_sample_project.git```
 ```cmake -Bbuild-cmake -H. -GNinja```  
 
 #### To Build
