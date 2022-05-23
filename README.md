@@ -7,6 +7,7 @@ Sample project for the Data Flow Library
 
 #### Setup:
 ```git clone --recursive https://github.com/Oyalmli/dfl_sample_project.git```  
+```cd dfl_sample_project```  
 ```cmake -Bbuild-cmake -H. -GNinja```  
 
 #### To Build
